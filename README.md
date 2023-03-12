@@ -22,7 +22,7 @@ A library usada para comunicar com o módulo I2C do LCD é o Liquid Crystal:
 LiquidCrystal_I2C lcd(0x3F, 16, 2);
 // A4 - sda, A5 - clk
 ```
-A configuração usa os [https://docs.arduino.cc/learn/communication/wire](tradicionais) pins A4 e A5 para o SDA/SCL do protocolo I2C.
+A configuração usa os [tradicionais](https://docs.arduino.cc/learn/communication/wire) pins A4 e A5 para o SDA/SCL do protocolo I2C.
 O LCD precisa também das ligações habituais +5V e GND.
 
 Cada módulo infravermelho do TCRT5000 corresponde a um tamanho de moeda diferente e estão ligados do pin 0 ao pin 7.
@@ -45,7 +45,7 @@ Setup:
 pinMode(buttonPin, INPUT);
 ```
 
-Uma versão melhorada deste setup e também da leitura inclui [https://docs.arduino.cc/hacking/software/PortManipulation](Direct Port Manipulation), e verá a luz do dia no futuro. Essencialmente é manipular directamente os registers I/O do arduino, excusando usar funções elaboradas que comem ciclos de relógio como quem bebe água.
+Uma versão melhorada deste setup e também da leitura inclui [Direct Port Manipulation](https://docs.arduino.cc/hacking/software/PortManipulation), e verá a luz do dia no futuro. Essencialmente é manipular directamente os registers I/O do arduino, excusando usar funções elaboradas que comem ciclos de relógio como quem bebe água.
 
 ## Modelação e Impressão
 Os restantes ficheiros são para impressão 3d.
